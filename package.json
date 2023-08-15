@@ -1,0 +1,24 @@
+{
+  "name": "js-discord-rpc",
+  "version": "1.0.0",
+  "description": "BernhardBMX's discord RPC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenBernhardG/js-discord-rpc.git"
+  },
+  "author": "Ben Giese",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenBernhardG/js-discord-rpc/issues"
+  },
+  "homepage": "https://github.com/BenBernhardG/js-discord-rpc#readme",
+  "dependencies": {
+    "discord-rpc": "^4.0.1",
+    "discord.js": "^14.12.1",
+    "dotenv": "^16.3.1"
+  }
+}
