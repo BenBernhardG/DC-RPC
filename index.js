@@ -16,14 +16,13 @@ discordRPC.register(DISCORD_APPLICATION_ID);
 async function setRPCActivity() {
     if (!RPC) return;
     RPC.setActivity({
-        details: `s`,
-        state: `s`,
+        details: `abc`,
+        state: `abc`,
         startTimestamp: Date.now(),
         largeImageKey: `bmx_treppen_jump`,
         largeImageText: `Bob Bot`,
         smallImageKey: `bernhardbmx`,
         smallImageText: `BernhardBMX#4416`,
-        joinSecret: ``,
         instance: false,
         buttons: [
             {
@@ -33,10 +32,6 @@ async function setRPCActivity() {
             {
                 "label": "Twitch",
                 "url": "https://twitch.tv/bernhardbmx/"
-            },
-            {
-                "label": "More...",
-                "url": "https://www.bernhardbmx.net/"
             }
         ]
     });
